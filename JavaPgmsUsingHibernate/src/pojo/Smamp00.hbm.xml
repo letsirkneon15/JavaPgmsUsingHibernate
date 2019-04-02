@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2016 1:31:45 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smamp00" table="SMAMP00">
+      <composite-id>
+    		<key-property name="FIRMAM" column="FIRMAM" />
+    		<key-property name="PCARAM" column="PCARAM" />
+    		<key-property name="SEQNAM" column="SEQNAM" />
+    		<key-property name="CARDAM" column="CARDAM" />
+    		<key-property name="SRQNAM" column="SRQNAM" />
+    	</composite-id>
+        <property name="CQTYAM" type="int">
+            <column name="CQTYAM" />
+        </property>
+        <property name="STKCAM" type="java.lang.String">
+            <column name="STKCAM" />
+        </property>
+        <property name="CUSTAM" type="java.lang.String">
+            <column name="CUSTAM" />
+        </property>
+        <property name="MURAAM" type="java.lang.String">
+            <column name="MURAAM" />
+        </property>
+        <property name="REELAM" type="java.lang.String">
+            <column name="REELAM" />
+        </property>
+        <property name="ARTDAM" type="java.lang.String">
+            <column name="ARTDAM" />
+        </property>
+        <property name="CNORAM" type="java.lang.String">
+            <column name="CNORAM" />
+        </property>
+        <property name="DUTYAM" type="java.lang.String">
+            <column name="DUTYAM" />
+        </property>
+        <property name="WRHSAM" type="java.lang.String">
+            <column name="WRHSAM" />
+        </property>
+        <property name="DSHPAM" type="java.lang.String">
+            <column name="DSHPAM" />
+        </property>
+        <property name="STOPAM" type="java.lang.String">
+            <column name="STOPAM" />
+        </property>
+        <property name="ACKCAM" type="java.lang.String">
+            <column name="ACKCAM" />
+        </property>
+        <property name="FLG1AM" type="java.lang.String">
+            <column name="FLG1AM" />
+        </property>
+        <property name="FLG2AM" type="java.lang.String">
+            <column name="FLG2AM" />
+        </property>
+        <property name="STATAM" type="java.lang.String">
+            <column name="STATAM" />
+        </property>
+        <property name="USERAM" type="java.lang.String">
+            <column name="USERAM" />
+        </property>
+        <property name="PROGAM" type="java.lang.String">
+            <column name="PROGAM" />
+        </property>
+        <property name="CYMDAM" type="int">
+            <column name="CYMDAM" />
+        </property>
+        <property name="LYMDAM" type="int">
+            <column name="LYMDAM" />
+        </property>
+        <property name="EDPCAM" type="java.lang.String">
+            <column name="EDPCAM" />
+        </property>
+    </class>
+</hibernate-mapping>

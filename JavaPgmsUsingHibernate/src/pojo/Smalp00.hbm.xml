@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2016 10:20:52 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smalp00" table="SMALP00">
+        <composite-id>
+    		<key-property name="FIRMAL" column="FIRMAL" />
+    		<key-property name="PCARAL" column="PCARAL" />
+    		<key-property name="SEQNAL" column="SEQNAL" />
+    	</composite-id>
+    	
+        <property name="LAIDAL" type="int">
+            <column name="LAIDAL" />       
+        </property>
+        <property name="STKCAL" type="java.lang.String">
+            <column name="STKCAL" />
+        </property>
+        <property name="SUPLAL" type="java.lang.String">
+            <column name="SUPLAL" />
+        </property>
+        <property name="ORDTAL" type="java.lang.String">
+            <column name="ORDTAL" />
+        </property>
+        <property name="ORDCAL" type="java.lang.String">
+            <column name="ORDCAL" />
+        </property>
+        <property name="MURAAL" type="java.lang.String">
+            <column name="MURAAL" />
+        </property>
+        <property name="REELAL" type="java.lang.String">
+            <column name="REELAL" />
+        </property>
+        <property name="ARTDAL" type="java.lang.String">
+            <column name="ARTDAL" />
+        </property>
+        <property name="CNORAL" type="java.lang.String">
+            <column name="CNORAL" />
+        </property>
+        <property name="DUTYAL" type="java.lang.String">
+            <column name="DUTYAL" />
+        </property>
+        <property name="WRHSAL" type="java.lang.String">
+            <column name="WRHSAL" />
+        </property>
+        <property name="RQTYAL" type="int">
+            <column name="RQTYAL" />
+        </property>
+        <property name="PQTYAL" type="int">
+            <column name="PQTYAL" />
+        </property>
+        <property name="RDVDAL" type="int">
+            <column name="RDVDAL" />
+        </property>
+        <property name="RDVWAL" type="int">
+            <column name="RDVWAL" />
+        </property>
+        <property name="RARDAL" type="int">
+            <column name="RARDAL" />
+        </property>
+        <property name="REXDAL" type="int">
+            <column name="REXDAL" />
+        </property>
+        <property name="REXWAL" type="int">
+            <column name="REXWAL" />
+        </property>
+        <property name="FINDAL" type="int">
+            <column name="FINDAL" />
+        </property>
+        <property name="FINWAL" type="int">
+            <column name="FINWAL" />
+        </property>
+        <property name="FARDAL" type="int">
+            <column name="FARDAL" />
+        </property>
+        <property name="FAKDAL" type="int">
+            <column name="FAKDAL" />
+        </property>
+        <property name="FAKWAL" type="int">
+            <column name="FAKWAL" />
+        </property>
+        <property name="VAKDAL" type="int">
+            <column name="VAKDAL" />
+        </property>
+        <property name="VAKWAL" type="int">
+            <column name="VAKWAL" />
+        </property>
+        <property name="VARDAL" type="int">
+            <column name="VARDAL" />
+        </property>
+        <property name="VEXDAL" type="int">
+            <column name="VEXDAL" />
+        </property>
+        <property name="VEXWAL" type="int">
+            <column name="VEXWAL" />
+        </property>
+        <property name="LAADAL" type="int">
+            <column name="LAADAL" />
+        </property>
+        <property name="LAEDAL" type="int">
+            <column name="LAEDAL" />
+        </property>
+        <property name="POSDAL" type="int">
+            <column name="POSDAL" />
+        </property>
+        <property name="FBOAAL" type="java.lang.String">
+            <column name="FBOAAL" />
+        </property>
+        <property name="DSCDAL" type="java.lang.String">
+            <column name="DSCDAL" />
+        </property>
+        <property name="DVCDAL" type="java.lang.String">
+            <column name="DVCDAL" />
+        </property>
+        <property name="SCHCAL" type="java.lang.String">
+            <column name="SCHCAL" />
+        </property>
+        <property name="DSHPAL" type="java.lang.String">
+            <column name="DSHPAL" />
+        </property>
+        <property name="SCRDAL" type="java.lang.String">
+            <column name="SCRDAL" />
+        </property>
+        <property name="PICKAL" type="java.lang.String">
+            <column name="PICKAL" />
+        </property>
+        <property name="FIXDAL" type="java.lang.String">
+            <column name="FIXDAL" />
+        </property>
+        <property name="FLG1AL" type="java.lang.String">
+            <column name="FLG1AL" />
+        </property>
+        <property name="FLG2AL" type="java.lang.String">
+            <column name="FLG2AL" />
+        </property>
+        <property name="FLG3AL" type="java.lang.String">
+            <column name="FLG3AL" />
+        </property>
+        <property name="FLG4AL" type="java.lang.String">
+            <column name="FLG4AL" />
+        </property>
+        <property name="FLG5AL" type="java.lang.String">
+            <column name="FLG5AL" />
+        </property>
+        <property name="STATAL" type="java.lang.String">
+            <column name="STATAL" />
+        </property>
+        <property name="USERAL" type="java.lang.String">
+            <column name="USERAL" />
+        </property>
+        <property name="PROGAL" type="java.lang.String">
+            <column name="PROGAL" />
+        </property>
+        <property name="CYMDAL" type="int">
+            <column name="CYMDAL" />
+        </property>
+        <property name="LYMDAL" type="int">
+            <column name="LYMDAL" />
+        </property>
+        <property name="EDPCAL" type="java.lang.String">
+            <column name="EDPCAL" />
+        </property>
+    </class>
+</hibernate-mapping>

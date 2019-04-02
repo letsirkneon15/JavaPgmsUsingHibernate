@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.ibm.as400.access.AS400JDBCDriver</property>
+		<property name="hibernate.connection.password"></property>
+		<property name="hibernate.connection.url"></property>
+		<property name="hibernate.connection.username"></property>
+		<property name="hibernate.dialect">org.hibernate.dialect.DB2400Dialect</property>
+		<mapping resource="com/muratames/usso/pojo/Smdap00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smdep00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smabp00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smacp00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smakp00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smalp00.hbm.xml" />
+		<mapping resource="com/muratames/usso/pojo/Smamp00.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

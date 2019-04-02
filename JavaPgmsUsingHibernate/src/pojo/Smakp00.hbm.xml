@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 29, 2016 3:40:49 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smakp00" table="SMAKP00">
+       <composite-id>
+    		<key-property name="FIRMAK" column="FIRMAK" />
+    		<key-property name="PCARAK" column="PCARAK" />
+    	</composite-id>
+        <property name="WRHSAK" type="java.lang.String" access="field">
+            <column name="WRHSAK" />
+        </property>
+        <property name="ORFNAK" type="java.lang.String" access="field">
+            <column name="ORFNAK" />
+        </property>
+        <property name="PFORAK" type="java.lang.String" access="field">
+            <column name="PFORAK" />
+        </property>
+        <property name="MURAAK" type="java.lang.String" access="field">
+            <column name="MURAAK" />
+        </property>
+        <property name="REELAK" type="java.lang.String" access="field">
+            <column name="REELAK" />
+        </property>
+        <property name="ARTDAK" type="java.lang.String" access="field">
+            <column name="ARTDAK" />
+        </property>
+        <property name="CNORAK" type="java.lang.String" access="field">
+            <column name="CNORAK" />
+        </property>
+        <property name="SUPLAK" type="java.lang.String" access="field">
+            <column name="SUPLAK" />
+        </property>
+        <property name="SMSPAK" type="java.lang.String" access="field">
+            <column name="SMSPAK" />
+        </property>
+        <property name="SEIKAK" type="java.lang.String" access="field">
+            <column name="SEIKAK" />
+        </property>
+        <property name="FGRPAK" type="java.lang.String" access="field">
+            <column name="FGRPAK" />
+        </property>
+        <property name="GITMAK" type="java.lang.String" access="field">
+            <column name="GITMAK" />
+        </property>
+        <property name="DUTYAK" type="java.lang.String" access="field">
+            <column name="DUTYAK" />
+        </property>
+        <property name="SPECAK" type="java.lang.String" access="field">
+            <column name="SPECAK" />
+        </property>
+        <property name="STKCAK" type="java.lang.String" access="field">
+            <column name="STKCAK" />
+        </property>
+        <property name="STCDAK" type="java.lang.String" access="field">
+            <column name="STCDAK" />
+        </property>
+        <property name="ECUSAK" type="java.lang.String" access="field">
+            <column name="ECUSAK" />
+        </property>
+        <property name="PARTAK" type="java.lang.String" access="field">
+            <column name="PARTAK" />
+        </property>
+        <property name="DRWNAK" type="java.lang.String" access="field">
+            <column name="DRWNAK" />
+        </property>
+        <property name="DREVAK" type="java.lang.String" access="field">
+            <column name="DREVAK" />
+        </property>
+        <property name="DREQAK" type="java.lang.String" access="field">
+            <column name="DREQAK" />
+        </property>
+        <property name="CREFAK" type="java.lang.String" access="field">
+            <column name="CREFAK" />
+        </property>
+        <property name="SMURAK" type="java.lang.String" access="field">
+            <column name="SMURAK" />
+        </property>
+        <property name="POQTAK" type="int" access="field">
+            <column name="POQTAK" />
+        </property>
+        <property name="CANPAK" type="int" access="field">
+            <column name="CANPAK" />
+        </property>
+        <property name="PQACAK" type="int" access="field">
+            <column name="PQACAK" />
+        </property>
+        <property name="BALNAK" type="int" access="field">
+            <column name="BALNAK" />
+        </property>
+        <property name="PCURAK" type="java.lang.String" access="field">
+            <column name="PCURAK" />
+        </property>
+        <property name="TPOCAK" type="int" access="field">
+            <column name="TPOCAK" />
+        </property>
+        <property name="TPLCAK" type="int" access="field">
+            <column name="TPLCAK" />
+        </property>
+        <property name="EXRPAK" type="int" access="field">
+            <column name="EXRPAK" />
+        </property>
+        <property name="STPCAK" type="java.lang.String" access="field">
+            <column name="STPCAK" />
+        </property>
+        <property name="POVFAK" type="java.lang.String" access="field">
+            <column name="POVFAK" />
+        </property>
+        <property name="SPOCAK" type="int" access="field">
+            <column name="SPOCAK" />
+        </property>
+        <property name="SCURAK" type="java.lang.String" access="field">
+            <column name="SCURAK" />
+        </property>
+        <property name="CPONAK" type="java.lang.String" access="field">
+            <column name="CPONAK" />
+        </property>
+        <property name="UNITAK" type="java.lang.String" access="field">
+            <column name="UNITAK" />
+        </property>
+        <property name="COCOAK" type="java.lang.String" access="field">
+            <column name="COCOAK" />
+        </property>
+        <property name="ORDTAK" type="java.lang.String" access="field">
+            <column name="ORDTAK" />
+        </property>
+        <property name="ORDCAK" type="java.lang.String" access="field">
+            <column name="ORDCAK" />
+        </property>
+        <property name="RMNPAK" type="int" access="field">
+            <column name="RMNPAK" />
+        </property>
+        <property name="RMNSAK" type="int" access="field">
+            <column name="RMNSAK" />
+        </property>
+        <property name="H50CAK" type="java.lang.String" access="field">
+            <column name="H50CAK" />
+        </property>
+        <property name="H40CAK" type="java.lang.String" access="field">
+            <column name="H40CAK" />
+        </property>
+        <property name="PODCAK" type="java.lang.String" access="field">
+            <column name="PODCAK" />
+        </property>
+        <property name="MOCDAK" type="java.lang.String" access="field">
+            <column name="MOCDAK" />
+        </property>
+        <property name="IMLNAK" type="java.lang.String" access="field">
+            <column name="IMLNAK" />
+        </property>
+        <property name="SORTAK" type="java.lang.String" access="field">
+            <column name="SORTAK" />
+        </property>
+        <property name="ACDDAK" type="int" access="field">
+            <column name="ACDDAK" />
+        </property>
+        <property name="ACDWAK" type="int" access="field">
+            <column name="ACDWAK" />
+        </property>
+        <property name="CLERAK" type="java.lang.String" access="field">
+            <column name="CLERAK" />
+        </property>
+        <property name="PURFAK" type="java.lang.String" access="field">
+            <column name="PURFAK" />
+        </property>
+        <property name="QNUMAK" type="java.lang.String" access="field">
+            <column name="QNUMAK" />
+        </property>
+        <property name="TRANAK" type="java.lang.String" access="field">
+            <column name="TRANAK" />
+        </property>
+        <property name="TRDTAK" type="int" access="field">
+            <column name="TRDTAK" />
+        </property>
+        <property name="RDATAK" type="int" access="field">
+            <column name="RDATAK" />
+        </property>
+        <property name="STOPAK" type="java.lang.String" access="field">
+            <column name="STOPAK" />
+        </property>
+        <property name="PMACAK" type="java.lang.String" access="field">
+            <column name="PMACAK" />
+        </property>
+        <property name="COMMAK" type="java.lang.String" access="field">
+            <column name="COMMAK" />
+        </property>
+        <property name="REMAAK" type="java.lang.String" access="field">
+            <column name="REMAAK" />
+        </property>
+        <property name="KITCAK" type="java.lang.String" access="field">
+            <column name="KITCAK" />
+        </property>
+        <property name="Y50CAK" type="java.lang.String" access="field">
+            <column name="Y50CAK" />
+        </property>
+        <property name="MCRIAK" type="java.lang.String" access="field">
+            <column name="MCRIAK" />
+        </property>
+        <property name="OIOFAK" type="java.lang.String" access="field">
+            <column name="OIOFAK" />
+        </property>
+        <property name="PPTSAK" type="java.lang.String" access="field">
+            <column name="PPTSAK" />
+        </property>
+        <property name="FLG1AK" type="java.lang.String" access="field">
+            <column name="FLG1AK" />
+        </property>
+        <property name="FLG2AK" type="java.lang.String" access="field">
+            <column name="FLG2AK" />
+        </property>
+        <property name="FLG3AK" type="java.lang.String" access="field">
+            <column name="FLG3AK" />
+        </property>
+        <property name="FLG4AK" type="java.lang.String" access="field">
+            <column name="FLG4AK" />
+        </property>
+        <property name="FLG5AK" type="java.lang.String" access="field">
+            <column name="FLG5AK" />
+        </property>
+        <property name="STATAK" type="java.lang.String" access="field">
+            <column name="STATAK" />
+        </property>
+        <property name="USERAK" type="java.lang.String" access="field">
+            <column name="USERAK" />
+        </property>
+        <property name="PROGAK" type="java.lang.String" access="field">
+            <column name="PROGAK" />
+        </property>
+        <property name="CYMDAK" type="int" access="field">
+            <column name="CYMDAK" />
+        </property>
+        <property name="LYMDAK" type="int" access="field">
+            <column name="LYMDAK" />
+        </property>
+        <property name="EDPCAK" type="java.lang.String" access="field">
+            <column name="EDPCAK" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2016 4:07:00 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smdap00" table="SMDAP00">
+    
+        <composite-id>
+    		<key-property name="FIRMDA" column="FIRMDA" />
+    		<key-property name="CUSTDA" column="CUSTDA" />
+    	</composite-id>
+    	
+        <property name="ADRIDA" type="java.lang.String">
+            <column name="ADRIDA" />
+        </property>
+        <property name="ALTCDA" type="java.lang.String">
+            <column name="ALTCDA" />
+        </property>
+        <property name="CFNADA" type="java.lang.String">
+            <column name="CFNADA" />
+        </property>
+        <property name="CFNLDA" type="java.lang.String">
+            <column name="CFNLDA" />
+        </property>
+        <property name="CNMSDA" type="java.lang.String">
+            <column name="CNMSDA" />
+        </property>
+        <property name="CMATDA" type="java.lang.String">
+            <column name="CMATDA" />
+        </property>
+        <property name="INCFDA" type="java.lang.String">
+            <column name="INCFDA" />
+        </property>
+        <property name="OSANDA" type="java.lang.String">
+            <column name="OSANDA" />
+        </property>
+        <property name="ADRADA" type="java.lang.String">
+            <column name="ADRADA" />
+        </property>
+        <property name="ADRSDA" type="java.lang.String">
+            <column name="ADRSDA" />
+        </property>
+        <property name="ADRPDA" type="java.lang.String">
+            <column name="ADRPDA" />
+        </property>
+        <property name="INVGDA" type="java.lang.String">
+            <column name="INVGDA" />
+        </property>
+        <property name="SHPGDA" type="java.lang.String">
+            <column name="SHPGDA" />
+        </property>
+        <property name="PAYGDA" type="java.lang.String">
+            <column name="PAYGDA" />
+        </property>
+        <property name="ACKGDA" type="java.lang.String">
+            <column name="ACKGDA" />
+        </property>
+        <property name="STKCDA" type="java.lang.String">
+            <column name="STKCDA" />
+        </property>
+        <property name="CCFCDA" type="java.lang.String">
+            <column name="CCFCDA" />
+        </property>
+        <property name="CCFGDA" type="java.lang.String">
+            <column name="CCFGDA" />
+        </property>
+        <property name="PZNCDA" type="java.lang.String">
+            <column name="PZNCDA" />
+        </property>
+        <property name="PZNGDA" type="java.lang.String">
+            <column name="PZNGDA" />
+        </property>
+        <property name="CRECDA" type="java.lang.String">
+            <column name="CRECDA" />
+        </property>
+        <property name="SCURDA" type="java.lang.String">
+            <column name="SCURDA" />
+        </property>
+        <property name="SPCPDA" type="java.lang.String">
+            <column name="SPCPDA" />
+        </property>
+        <property name="SPABDA" type="java.lang.String">
+            <column name="SPABDA" />
+        </property>
+        <property name="MISCDA" type="int">
+            <column name="MISCDA" />
+        </property>
+        <property name="TRPKDA" type="java.lang.String">
+            <column name="TRPKDA" />
+        </property>
+        <property name="PAKKDA" type="java.lang.String">
+            <column name="PAKKDA" />
+        </property>
+        <property name="METHDA" type="java.lang.String">
+            <column name="METHDA" />
+        </property>
+        <property name="CLERDA" type="java.lang.String">
+            <column name="CLERDA" />
+        </property>
+        <property name="QCLRDA" type="java.lang.String">
+            <column name="QCLRDA" />
+        </property>
+        <property name="STOPDA" type="java.lang.String">
+            <column name="STOPDA" />
+        </property>
+        <property name="LANGDA" type="java.lang.String">
+            <column name="LANGDA" />
+        </property>
+        <property name="EDSEDA" type="java.lang.String">
+            <column name="EDSEDA" />
+        </property>
+        <property name="EDICDA" type="java.lang.String">
+            <column name="EDICDA" />
+        </property>
+        <property name="GLC1DA" type="java.lang.String">
+            <column name="GLC1DA" />
+        </property>
+        <property name="GLC2DA" type="java.lang.String">
+            <column name="GLC2DA" />
+        </property>
+        <property name="GLC3DA" type="java.lang.String">
+            <column name="GLC3DA" />
+        </property>
+        <property name="LOC1DA" type="java.lang.String">
+            <column name="LOC1DA" />
+        </property>
+        <property name="LOC2DA" type="java.lang.String">
+            <column name="LOC2DA" />
+        </property>
+        <property name="LOC3DA" type="java.lang.String">
+            <column name="LOC3DA" />
+        </property>
+        <property name="STATDA" type="java.lang.String">
+            <column name="STATDA" />
+        </property>
+        <property name="USERDA" type="java.lang.String">
+            <column name="USERDA" />
+        </property>
+        <property name="PROGDA" type="java.lang.String">
+            <column name="PROGDA" />
+        </property>
+        <property name="CYMDDA" type="int">
+            <column name="CYMDDA" />
+        </property>
+        <property name="LYMDDA" type="int">
+            <column name="LYMDDA" />
+        </property>
+        <property name="EDPCDA" type="java.lang.String">
+            <column name="EDPCDA" />
+        </property>
+    </class>
+</hibernate-mapping>

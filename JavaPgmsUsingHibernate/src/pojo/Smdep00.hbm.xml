@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 25, 2016 11:12:58 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smdep00" table="SMDEP00">
+        <composite-id>
+    		<key-property name="FIRMDE" column="FIRMDE" />
+    		<key-property name="CUSTDE" column="CUSTDE" />
+    	</composite-id>
+        
+        <property name="SGRPDE" type="java.lang.String">
+            <column name="SGRPDE" />
+        </property>
+        <property name="CGRPDE" type="java.lang.String">
+            <column name="CGRPDE" />
+        </property>
+        <property name="BUSCDE" type="java.lang.String">
+            <column name="BUSCDE" />
+        </property>
+        <property name="CLASDE" type="java.lang.String">
+            <column name="CLASDE" />
+        </property>
+        <property name="SMACDE" type="java.lang.String">
+            <column name="SMACDE" />
+        </property>
+        <property name="SMNGDE" type="java.lang.String">
+            <column name="SMNGDE" />
+        </property>
+        <property name="KACCDE" type="java.lang.String">
+            <column name="KACCDE" />
+        </property>
+        <property name="DPSMDE" type="java.lang.String">
+            <column name="DPSMDE" />
+        </property>
+        <property name="CNTWDE" type="java.lang.String">
+            <column name="CNTWDE" />
+        </property>
+        <property name="APTCDE" type="java.lang.String">
+            <column name="APTCDE" />
+        </property>
+        <property name="APTSDE" type="java.lang.String">
+            <column name="APTSDE" />
+        </property>
+        <property name="TCUSDE" type="java.lang.String">
+            <column name="TCUSDE" />
+        </property>
+        <property name="FNAMDE" type="java.lang.String">
+            <column name="FNAMDE" />
+        </property>
+        <property name="STCUDE" type="java.lang.String">
+            <column name="STCUDE" />
+        </property>
+        <property name="CCOPDE" type="java.lang.String">
+            <column name="CCOPDE" />
+        </property>
+        <property name="CMKCDE" type="java.lang.String">
+            <column name="CMKCDE" />
+        </property>
+        <property name="CMKODE" type="java.lang.String">
+            <column name="CMKODE" />
+        </property>
+        <property name="CSMCDE" type="java.lang.String">
+            <column name="CSMCDE" />
+        </property>
+        <property name="CGPCDE" type="java.lang.String">
+            <column name="CGPCDE" />
+        </property>
+        <property name="CGPDDE" type="java.lang.String">
+            <column name="CGPDDE" />
+        </property>
+        <property name="CGBRDE" type="java.lang.String">
+            <column name="CGBRDE" />
+        </property>
+        <property name="AGPCDE" type="java.lang.String">
+            <column name="AGPCDE" />
+        </property>
+        <property name="AGPDDE" type="java.lang.String">
+            <column name="AGPDDE" />
+        </property>
+        <property name="GCURDE" type="java.lang.String">
+            <column name="GCURDE" />
+        </property>
+        <property name="CNTRDE" type="java.lang.String">
+            <column name="CNTRDE" />
+        </property>
+        <property name="HCNTDE" type="java.lang.String">
+            <column name="HCNTDE" />
+        </property>
+        <property name="DCNTDE" type="java.lang.String">
+            <column name="DCNTDE" />
+        </property>
+        <property name="PROVDE" type="java.lang.String">
+            <column name="PROVDE" />
+        </property>
+        <property name="AREADE" type="java.lang.String">
+            <column name="AREADE" />
+        </property>
+        <property name="COFLDE" type="java.lang.String">
+            <column name="COFLDE" />
+        </property>
+        <property name="GL01DE" type="java.lang.String">
+            <column name="GL01DE" />
+        </property>
+        <property name="GL02DE" type="java.lang.String">
+            <column name="GL02DE" />
+        </property>
+        <property name="GL03DE" type="java.lang.String">
+            <column name="GL03DE" />
+        </property>
+        <property name="GL04DE" type="java.lang.String">
+            <column name="GL04DE" />
+        </property>
+        <property name="GL05DE" type="java.lang.String">
+            <column name="GL05DE" />
+        </property>
+        <property name="GL06DE" type="java.lang.String">
+            <column name="GL06DE" />
+        </property>
+        <property name="GL07DE" type="java.lang.String">
+            <column name="GL07DE" />
+        </property>
+        <property name="GL08DE" type="java.lang.String">
+            <column name="GL08DE" />
+        </property>
+        <property name="GL09DE" type="java.lang.String">
+            <column name="GL09DE" />
+        </property>
+        <property name="GL10DE" type="java.lang.String">
+            <column name="GL10DE" />
+        </property>
+        <property name="GL11DE" type="java.lang.String">
+            <column name="GL11DE" />
+        </property>
+        <property name="GL12DE" type="java.lang.String">
+            <column name="GL12DE" />
+        </property>
+        <property name="LC01DE" type="java.lang.String">
+            <column name="LC01DE" />
+        </property>
+        <property name="LC02DE" type="java.lang.String">
+            <column name="LC02DE" />
+        </property>
+        <property name="LC03DE" type="java.lang.String">
+            <column name="LC03DE" />
+        </property>
+        <property name="LC04DE" type="java.lang.String">
+            <column name="LC04DE" />
+        </property>
+        <property name="LC05DE" type="java.lang.String">
+            <column name="LC05DE" />
+        </property>
+        <property name="LC06DE" type="java.lang.String">
+            <column name="LC06DE" />
+        </property>
+        <property name="LC07DE" type="java.lang.String">
+            <column name="LC07DE" />
+        </property>
+        <property name="LC08DE" type="java.lang.String">
+            <column name="LC08DE" />
+        </property>
+        <property name="LC09DE" type="java.lang.String">
+            <column name="LC09DE" />
+        </property>
+        <property name="LC10DE" type="java.lang.String">
+            <column name="LC10DE" />
+        </property>
+        <property name="LC11DE" type="java.lang.String">
+            <column name="LC11DE" />
+        </property>
+        <property name="LC12DE" type="java.lang.String">
+            <column name="LC12DE" />
+        </property>
+        <property name="LC13DE" type="java.lang.String">
+            <column name="LC13DE" />
+        </property>
+        <property name="LC14DE" type="java.lang.String">
+            <column name="LC14DE" />
+        </property>
+        <property name="LC15DE" type="java.lang.String">
+            <column name="LC15DE" />
+        </property>
+        <property name="LC16DE" type="java.lang.String">
+            <column name="LC16DE" />
+        </property>
+        <property name="LC17DE" type="java.lang.String">
+            <column name="LC17DE" />
+        </property>
+        <property name="LC18DE" type="java.lang.String">
+            <column name="LC18DE" />
+        </property>
+        <property name="LC19DE" type="java.lang.String">
+            <column name="LC19DE" />
+        </property>
+        <property name="LC20DE" type="java.lang.String">
+            <column name="LC20DE" />
+        </property>
+        <property name="LC21DE" type="java.lang.String">
+            <column name="LC21DE" />
+        </property>
+        <property name="LC22DE" type="java.lang.String">
+            <column name="LC22DE" />
+        </property>
+        <property name="STATDE" type="java.lang.String">
+            <column name="STATDE" />
+        </property>
+        <property name="USERDE" type="java.lang.String">
+            <column name="USERDE" />
+        </property>
+        <property name="PROGDE" type="java.lang.String">
+            <column name="PROGDE" />
+        </property>
+        <property name="CYMDDE" type="int">
+            <column name="CYMDDE" />
+        </property>
+        <property name="LYMDDE" type="int">
+            <column name="LYMDDE" />
+        </property>
+        <property name="EDPCDE" type="java.lang.String">
+            <column name="EDPCDE" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2016 5:03:14 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smabp00" table="SMABP00">
+       <composite-id>
+    		<key-property name="FIRMAB" column="FIRMAB" />
+    		<key-property name="CARDAB" column="CARDAB" />
+    	</composite-id>
+
+        <property name="CLERAB" type="java.lang.String">
+            <column name="CLERAB" />
+        </property>
+        <property name="ORFNAB" type="java.lang.String">
+            <column name="ORFNAB" />
+        </property>
+        <property name="ORDTAB" type="java.lang.String">
+            <column name="ORDTAB" />
+        </property>
+        <property name="PARTAB" type="java.lang.String">
+            <column name="PARTAB" />
+        </property>
+        <property name="CPNFAB" type="java.lang.String">
+            <column name="CPNFAB" />
+        </property>
+        <property name="MURAAB" type="java.lang.String">
+            <column name="MURAAB" />
+        </property>
+        <property name="REELAB" type="java.lang.String">
+            <column name="REELAB" />
+        </property>
+        <property name="ARTDAB" type="java.lang.String">
+            <column name="ARTDAB" />
+        </property>
+        <property name="CNORAB" type="java.lang.String">
+            <column name="CNORAB" />
+        </property>
+        <property name="SUPLAB" type="java.lang.String">
+            <column name="SUPLAB" />
+        </property>
+        <property name="DUTYAB" type="java.lang.String">
+            <column name="DUTYAB" />
+        </property>
+        <property name="ROQTAB" type="int">
+            <column name="ROQTAB" />
+        </property>
+        <property name="CANRAB" type="int">
+            <column name="CANRAB" />
+        </property>
+        <property name="SQACAB" type="int">
+            <column name="SQACAB" />
+        </property>
+        <property name="BKLGAB" type="int">
+            <column name="BKLGAB" />
+        </property>
+        <property name="CPONAB" type="java.lang.String">
+            <column name="CPONAB" />
+        </property>
+        <property name="LINEAB" type="java.lang.String">
+            <column name="LINEAB" />
+        </property>
+        <property name="OYMDAB" type="int">
+            <column name="OYMDAB" />
+        </property>
+        <property name="VOUNAB" type="java.lang.String">
+            <column name="VOUNAB" />
+        </property>
+        <property name="CCFCAB" type="java.lang.String">
+            <column name="CCFCAB" />
+        </property>
+        <property name="SCURAB" type="java.lang.String">
+            <column name="SCURAB" />
+        </property>
+        <property name="SPOCAB" type="int">
+            <column name="SPOCAB" />
+        </property>
+        <property name="SPOVAB" type="java.lang.String">
+            <column name="SPOVAB" />
+        </property>
+        <property name="SPLCAB" type="int">
+            <column name="SPLCAB" />
+        </property>
+        <property name="EXRSAB" type="int">
+            <column name="EXRSAB" />
+        </property>
+        <property name="TARGAB" type="int">
+            <column name="TARGAB" />
+        </property>
+        <property name="SPCCAB" type="java.lang.String">
+            <column name="SPCCAB" />
+        </property>
+        <property name="SPCRAB" type="int">
+            <column name="SPCRAB" />
+        </property>
+        <property name="SPCPAB" type="java.lang.String">
+            <column name="SPCPAB" />
+        </property>
+        <property name="BCURAB" type="java.lang.String">
+            <column name="BCURAB" />
+        </property>
+        <property name="SCU2AB" type="java.lang.String">
+            <column name="SCU2AB" />
+        </property>
+        <property name="SPO2AB" type="int">
+            <column name="SPO2AB" />
+        </property>
+        <property name="SP2VAB" type="java.lang.String">
+            <column name="SP2VAB" />
+        </property>
+        <property name="SPL2AB" type="int">
+            <column name="SPL2AB" />
+        </property>
+        <property name="EXS2AB" type="int">
+            <column name="EXS2AB" />
+        </property>
+        <property name="OIOFAB" type="java.lang.String">
+            <column name="OIOFAB" />
+        </property>
+        <property name="TPOIAB" type="java.lang.String">
+            <column name="TPOIAB" />
+        </property>
+        <property name="PCURAB" type="java.lang.String">
+            <column name="PCURAB" />
+        </property>
+        <property name="TPOCAB" type="int">
+            <column name="TPOCAB" />
+        </property>
+        <property name="TPLCAB" type="int">
+            <column name="TPLCAB" />
+        </property>
+        <property name="EXRPAB" type="int">
+            <column name="EXRPAB" />
+        </property>
+        <property name="STPCAB" type="java.lang.String">
+            <column name="STPCAB" />
+        </property>
+        <property name="WRHSAB" type="java.lang.String">
+            <column name="WRHSAB" />
+        </property>
+        <property name="GCMAAB" type="int">
+            <column name="GCMAAB" />
+        </property>
+        <property name="GCMPAB" type="int">
+            <column name="GCMPAB" />
+        </property>
+        <property name="FCHRAB" type="int">
+            <column name="FCHRAB" />
+        </property>
+        <property name="DCHRAB" type="int">
+            <column name="DCHRAB" />
+        </property>
+        <property name="PGCPAB" type="int">
+            <column name="PGCPAB" />
+        </property>
+        <property name="XGCPAB" type="int">
+            <column name="XGCPAB" />
+        </property>
+        <property name="SGCPAB" type="int">
+            <column name="SGCPAB" />
+        </property>
+        <property name="FGCPAB" type="int">
+            <column name="FGCPAB" />
+        </property>
+        <property name="FGCAAB" type="int">
+            <column name="FGCAAB" />
+        </property>
+        <property name="FCHPAB" type="int">
+            <column name="FCHPAB" />
+        </property>
+        <property name="DUTPAB" type="int">
+            <column name="DUTPAB" />
+        </property>
+        <property name="RCBGAB" type="java.lang.String">
+            <column name="RCBGAB" />
+        </property>
+        <property name="ECUSAB" type="java.lang.String">
+            <column name="ECUSAB" />
+        </property>
+        <property name="EPONAB" type="java.lang.String">
+            <column name="EPONAB" />
+        </property>
+        <property name="STOPAB" type="java.lang.String">
+            <column name="STOPAB" />
+        </property>
+        <property name="MOCDAB" type="java.lang.String">
+            <column name="MOCDAB" />
+        </property>
+        <property name="UNITAB" type="java.lang.String">
+            <column name="UNITAB" />
+        </property>
+        <property name="SHLFAB" type="java.lang.String">
+            <column name="SHLFAB" />
+        </property>
+        <property name="SPECAB" type="java.lang.String">
+            <column name="SPECAB" />
+        </property>
+        <property name="TARDAB" type="java.lang.String">
+            <column name="TARDAB" />
+        </property>
+        <property name="DREQAB" type="java.lang.String">
+            <column name="DREQAB" />
+        </property>
+        <property name="CREFAB" type="java.lang.String">
+            <column name="CREFAB" />
+        </property>
+        <property name="DRWNAB" type="java.lang.String">
+            <column name="DRWNAB" />
+        </property>
+        <property name="DREVAB" type="java.lang.String">
+            <column name="DREVAB" />
+        </property>
+        <property name="STLCAB" type="java.lang.String">
+            <column name="STLCAB" />
+        </property>
+        <property name="ORDCAB" type="java.lang.String">
+            <column name="ORDCAB" />
+        </property>
+        <property name="DLSCAB" type="java.lang.String">
+            <column name="DLSCAB" />
+        </property>
+        <property name="MSHQAB" type="int">
+            <column name="MSHQAB" />
+        </property>
+        <property name="ACKCAB" type="java.lang.String">
+            <column name="ACKCAB" />
+        </property>
+        <property name="COCFAB" type="java.lang.String">
+            <column name="COCFAB" />
+        </property>
+        <property name="KITCAB" type="java.lang.String">
+            <column name="KITCAB" />
+        </property>
+        <property name="KITGAB" type="java.lang.String">
+            <column name="KITGAB" />
+        </property>
+        <property name="CINFAB" type="java.lang.String">
+            <column name="CINFAB" />
+        </property>
+        <property name="TENOAB" type="java.lang.String">
+            <column name="TENOAB" />
+        </property>
+        <property name="COMMAB" type="java.lang.String">
+            <column name="COMMAB" />
+        </property>
+        <property name="REMAAB" type="java.lang.String">
+            <column name="REMAAB" />
+        </property>
+        <property name="H50CAB" type="java.lang.String">
+            <column name="H50CAB" />
+        </property>
+        <property name="H40CAB" type="java.lang.String">
+            <column name="H40CAB" />
+        </property>
+        <property name="QNUMAB" type="java.lang.String">
+            <column name="QNUMAB" />
+        </property>
+        <property name="QCARAB" type="java.lang.String">
+            <column name="QCARAB" />
+        </property>
+        <property name="EDBYAB" type="java.lang.String">
+            <column name="EDBYAB" />
+        </property>
+        <property name="TRANAB" type="java.lang.String">
+            <column name="TRANAB" />
+        </property>
+        <property name="TRDTAB" type="int">
+            <column name="TRDTAB" />
+        </property>
+        <property name="ROCCAB" type="java.lang.String">
+            <column name="ROCCAB" />
+        </property>
+        <property name="RCARAB" type="java.lang.String">
+            <column name="RCARAB" />
+        </property>
+        <property name="GITMAB" type="java.lang.String">
+            <column name="GITMAB" />
+        </property>
+        <property name="RCURAB" type="java.lang.String">
+            <column name="RCURAB" />
+        </property>
+        <property name="RSPOAB" type="int">
+            <column name="RSPOAB" />
+        </property>
+        <property name="GSPOAB" type="int">
+            <column name="GSPOAB" />
+        </property>
+        <property name="SPCDAB" type="java.lang.String">
+            <column name="SPCDAB" />
+        </property>
+        <property name="INTRAB" type="java.lang.String">
+            <column name="INTRAB" />
+        </property>
+        <property name="WRH2AB" type="java.lang.String">
+            <column name="WRH2AB" />
+        </property>
+        <property name="ROO2AB" type="java.lang.String">
+            <column name="ROO2AB" />
+        </property>
+        <property name="SLOCAB" type="java.lang.String">
+            <column name="SLOCAB" />
+        </property>
+        <property name="DREFAB" type="java.lang.String">
+            <column name="DREFAB" />
+        </property>
+        <property name="RINVAB" type="java.lang.String">
+            <column name="RINVAB" />
+        </property>
+        <property name="Y50CAB" type="java.lang.String">
+            <column name="Y50CAB" />
+        </property>
+        <property name="MCRIAB" type="java.lang.String">
+            <column name="MCRIAB" />
+        </property>
+        <property name="CASMAB" type="java.lang.String">
+            <column name="CASMAB" />
+        </property>
+        <property name="UORPAB" type="java.lang.String">
+            <column name="UORPAB" />
+        </property>
+        <property name="FLG1AB" type="java.lang.String">
+            <column name="FLG1AB" />
+        </property>
+        <property name="FLG2AB" type="java.lang.String">
+            <column name="FLG2AB" />
+        </property>
+        <property name="FLG3AB" type="java.lang.String">
+            <column name="FLG3AB" />
+        </property>
+        <property name="FLG4AB" type="java.lang.String">
+            <column name="FLG4AB" />
+        </property>
+        <property name="FLG5AB" type="java.lang.String">
+            <column name="FLG5AB" />
+        </property>
+        <property name="TYPEAB" type="java.lang.String">
+            <column name="TYPEAB" />
+        </property>
+        <property name="CONOAB" type="java.lang.String">
+            <column name="CONOAB" />
+        </property>
+        <property name="LP01AB" type="java.lang.String">
+            <column name="LP01AB" />
+        </property>
+        <property name="LP02AB" type="java.lang.String">
+            <column name="LP02AB" />
+        </property>
+        <property name="LP03AB" type="java.lang.String">
+            <column name="LP03AB" />
+        </property>
+        <property name="LP04AB" type="java.lang.String">
+            <column name="LP04AB" />
+        </property>
+        <property name="LP05AB" type="java.lang.String">
+            <column name="LP05AB" />
+        </property>
+        <property name="LP06AB" type="java.lang.String">
+            <column name="LP06AB" />
+        </property>
+        <property name="LP07AB" type="java.lang.String">
+            <column name="LP07AB" />
+        </property>
+        <property name="STATAB" type="java.lang.String">
+            <column name="STATAB" />
+        </property>
+        <property name="USERAB" type="java.lang.String">
+            <column name="USERAB" />
+        </property>
+        <property name="PROGAB" type="java.lang.String">
+            <column name="PROGAB" />
+        </property>
+        <property name="CYMDAB" type="int">
+            <column name="CYMDAB" />
+        </property>
+        <property name="LYMDAB" type="int">
+            <column name="LYMDAB" />
+        </property>
+        <property name="EDPCAB" type="java.lang.String">
+            <column name="EDPCAB" />
+        </property>
+    </class>
+</hibernate-mapping>

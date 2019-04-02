@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 11, 2016 5:13:39 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.muratames.usso.pojo.Smacp00" table="SMACP00">
+       <composite-id>
+    		<key-property name="FIRMAC" column="FIRMAC" />
+    		<key-property name="CARDAC" column="CARDAC" />
+    		<key-property name="SRQNAC" column="SRQNAC" />
+    	</composite-id>
+        <property name="ORDTAC" type="java.lang.String">
+            <column name="ORDTAC" />
+        </property>
+        <property name="CUSTAC" type="java.lang.String">
+            <column name="CUSTAC" />
+        </property>
+        <property name="MURAAC" type="java.lang.String">
+            <column name="MURAAC" />
+        </property>
+        <property name="REELAC" type="java.lang.String">
+            <column name="REELAC" />
+        </property>
+        <property name="ARTDAC" type="java.lang.String">
+            <column name="ARTDAC" />
+        </property>
+        <property name="CNORAC" type="java.lang.String">
+            <column name="CNORAC" />
+        </property>
+        <property name="DUTYAC" type="java.lang.String">
+            <column name="DUTYAC" />
+        </property>
+        <property name="WRHSAC" type="java.lang.String">
+            <column name="WRHSAC" />
+        </property>
+        <property name="CARCAC" type="java.lang.String">
+            <column name="CARCAC" />
+        </property>
+        <property name="ADRSAC" type="java.lang.String">
+            <column name="ADRSAC" />
+        </property>
+        <property name="SHPGAC" type="java.lang.String">
+            <column name="SHPGAC" />
+        </property>
+        <property name="VATKAC" type="java.lang.String">
+            <column name="VATKAC" />
+        </property>
+        <property name="ALLMAC" type="java.lang.String">
+            <column name="ALLMAC" />
+        </property>
+        <property name="CQTYAC" type="int">
+            <column name="CQTYAC" />
+        </property>
+        <property name="CBOAAC" type="java.lang.String">
+            <column name="CBOAAC" />
+        </property>
+        <property name="ALLQAC" type="int">
+            <column name="ALLQAC" />
+        </property>
+        <property name="WAITAC" type="int">
+            <column name="WAITAC" />
+        </property>
+        <property name="CDVWAC" type="int">
+            <column name="CDVWAC" />
+        </property>
+        <property name="CDVDAC" type="int">
+            <column name="CDVDAC" />
+        </property>
+        <property name="EDRDAC" type="int">
+            <column name="EDRDAC" />
+        </property>
+        <property name="EDRWAC" type="int">
+            <column name="EDRWAC" />
+        </property>
+        <property name="CRSDAC" type="int">
+            <column name="CRSDAC" />
+        </property>
+        <property name="DAKWAC" type="int">
+            <column name="DAKWAC" />
+        </property>
+        <property name="DAKDAC" type="int">
+            <column name="DAKDAC" />
+        </property>
+        <property name="EDVDAC" type="int">
+            <column name="EDVDAC" />
+        </property>
+        <property name="EDVWAC" type="int">
+            <column name="EDVWAC" />
+        </property>
+        <property name="DAKSAC" type="int">
+            <column name="DAKSAC" />
+        </property>
+        <property name="CHGDAC" type="int">
+            <column name="CHGDAC" />
+        </property>
+        <property name="ASHDAC" type="int">
+            <column name="ASHDAC" />
+        </property>
+        <property name="FDAKAC" type="int">
+            <column name="FDAKAC" />
+        </property>
+        <property name="FPRDAC" type="int">
+            <column name="FPRDAC" />
+        </property>
+        <property name="CDFDAC" type="int">
+            <column name="CDFDAC" />
+        </property>
+        <property name="DATXAC" type="int">
+            <column name="DATXAC" />
+        </property>
+        <property name="DATYAC" type="int">
+            <column name="DATYAC" />
+        </property>
+        <property name="DSHPAC" type="java.lang.String">
+            <column name="DSHPAC" />
+        </property>
+        <property name="DVCDAC" type="java.lang.String">
+            <column name="DVCDAC" />
+        </property>
+        <property name="SCHCAC" type="java.lang.String">
+            <column name="SCHCAC" />
+        </property>
+        <property name="DELNAC" type="java.lang.String">
+            <column name="DELNAC" />
+        </property>
+        <property name="PICKAC" type="java.lang.String">
+            <column name="PICKAC" />
+        </property>
+        <property name="COCOAC" type="java.lang.String">
+            <column name="COCOAC" />
+        </property>
+        <property name="EXLNAC" type="java.lang.String">
+            <column name="EXLNAC" />
+        </property>
+        <property name="METHAC" type="java.lang.String">
+            <column name="METHAC" />
+        </property>
+        <property name="MSHQAC" type="int">
+            <column name="MSHQAC" />
+        </property>
+        <property name="CODFAC" type="java.lang.String">
+            <column name="CODFAC" />
+        </property>
+        <property name="QLTCAC" type="java.lang.String">
+            <column name="QLTCAC" />
+        </property>
+        <property name="FLG1AC" type="java.lang.String">
+            <column name="FLG1AC" />
+        </property>
+        <property name="FLG2AC" type="java.lang.String">
+            <column name="FLG2AC" />
+        </property>
+        <property name="FLG3AC" type="java.lang.String">
+            <column name="FLG3AC" />
+        </property>
+        <property name="FLG4AC" type="java.lang.String">
+            <column name="FLG4AC" />
+        </property>
+        <property name="FLG5AC" type="java.lang.String">
+            <column name="FLG5AC" />
+        </property>
+        <property name="STATAC" type="java.lang.String">
+            <column name="STATAC" />
+        </property>
+        <property name="USERAC" type="java.lang.String">
+            <column name="USERAC" />
+        </property>
+        <property name="PROGAC" type="java.lang.String">
+            <column name="PROGAC" />
+        </property>
+        <property name="CYMDAC" type="int">
+            <column name="CYMDAC" />
+        </property>
+        <property name="LYMDAC" type="int">
+            <column name="LYMDAC" />
+        </property>
+        <property name="EDPCAC" type="java.lang.String">
+            <column name="EDPCAC" />
+        </property>
+    </class>
+</hibernate-mapping>
